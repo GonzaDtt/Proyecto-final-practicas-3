@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: center center / cover no-repeat;
+}
+
+.nav{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.nav a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+}
+
+.nav p{
+    margin-top: 10px;
+}
+
+.main-container{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    height: 800px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+			0 10px 10px rgba(0,0,0,0.22);
+    border: none;
+}
+
+.left-container{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    width: 35%;
+    border-right: none;
+}
+
+.left-container img{
+    width: 400px;
+    margin: 50% -10%;
+}
+
+.right-container{
+    width: 65%;
+    background-color: rgb(21, 104, 124);
+    color: rgb(0, 0, 0);
+    border-left: none;
+}
+
+.right-container h3{
+    padding-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.form-floating{
+    background-color: rgb(3, 59, 73);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    border: none;
+    border-radius: 5px;
+}
+
+#foto{
+    background-color: black;
+}
+
+#btn-registro{
+    margin: 30px 140px;
+    text-align: center;
+    padding: 5px;
+    width: 55%;
+    height: 50px;
+    color: rgb(3, 59, 73);
+    background-color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+			0 10px 10px rgba(0,0,0,0.22);
+    letter-spacing: 1px;
+	transition: transform 80ms ease-in;
+}
+
+#btn-registro:hover{
+    color: rgb(44, 134, 185);
+    
+}
+
+#linkLogin{
+    color: white;
+    text-decoration: none;
+    margin-left: 180px;
+    top: -50px;
+}
+
+#linkLogin:hover{
+    text-decoration: underline;
+}
+
+.ok{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.bad {
+    margin-top: 20px;
+    display: block;
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
