@@ -30,6 +30,27 @@
                 </ul>
             </li>
           </ul>
+
+          <?php
+              if (isset($_SESSION['id']) && isset($_SESSION['name'])) {
+                  echo "<script type='text/javascript'>
+
+                  var btnSesion = document.getElementById('btnSesion');
+                  var btnConfig = document.getElementById('configuracion');
+                
+                  btnConfig.onclick = function(){
+                    window.location.href = 'dncAdministrador.php';
+
+                  }
+                  btnSesion.onclick = function(){
+                    window.location.href = 'logout.php';
+
+                  }
+                
+                  </script>";
+              }
+          ?>
+
           <?php 
           include("conex.php");
           $consulta = "SELECT * FROM usuarios u, perfiles p where u.nombre = '$_SESSION[name]' and '$_SESSION[id]' = u.idUsuario and u.idPerfil = p.idPerfil";

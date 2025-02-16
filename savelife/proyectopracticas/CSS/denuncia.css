@@ -63,10 +63,10 @@ form{
 
 
 #mapa {
-    height: 420px;
+    height: 400px;
     width: 25%;
     position: absolute;
-    top: 265px;
+    top: 220px;
     right: 250px;
     border: solid 1px #e6e6e6;
   }
@@ -76,8 +76,8 @@ form{
     padding: 5px;
     width: 55%;
     height: 50px;
-    color: rgb(3, 59, 73);
-    background-color: #fff;
+    color: #fff;
+    background-color: rgb(3, 59, 73);
     font-size: 20px;
     border: solid 1px gray;
     border-radius: 10px;
@@ -88,22 +88,22 @@ form{
 }
 
 #btn-denunciar:hover{
-    background: rgb(3, 59, 73);
+    background: rgb(9, 49, 53);
     color: #fff;
     transition: all 0.45s ease-in-out;
 }
 
 #divlatitud{
     position: absolute;
-    right: 380px;
-    bottom: -110px;
+    right: 420px;
+    bottom: 25px;
     width: 160px;
 }
 
 #divlongitud{
     position: absolute;
     right: 200px;
-    bottom: -110px;
+    bottom: 25px;
     width: 160px;
 }
 
